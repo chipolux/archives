@@ -1,0 +1,21 @@
+{
+    "__comment": [
+        "This comment section can be removed. It is only here to outline the map_viewer config spec.",
+        "Be sure to remove the .example from this file to use.",
+        "Button_#, # is 0-9 and reflects the keyboard numbers on a QWERTY keyboard (not numpad).",
+        "Each Button_# is set to a string like room1 representing the name of a .map/.obj file pair in the maps directory.",
+        "Button_1 must always have a value or map_viewer will crash on startup. Other buttons should be set to empty strings when not in use.",
+        "When you run map_viewer.py the map in Button_1 is loaded and you can press the 1-0 keys to change to the relevant map names you specify.",
+        "Just used to quickly test what a map or maps will look like."
+    ],
+    "Button_1": "room1",
+    "Button_2": "",
+    "Button_3": "",
+    "Button_4": "",
+    "Button_5": "",
+    "Button_6": "",
+    "Button_7": "",
+    "Button_8": "",
+    "Button_9": "",
+    "Button_0": ""
+}
