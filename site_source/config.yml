@@ -1,0 +1,18 @@
+# Base Config
+base_url: /
+domain: http://nbwright.net
+
+# Metadata
+author: NaKyle Wright
+description: talkin bout tech
+email: nakyle@nbwright.net
+subtitle: talkin bout tech
+title: NaKyle On Tech
+copyright: 2013-2014, NaKyle Wright. All rights reserved.
+
+# Extra settings
+misaka:
+    render_flags:
+        hard_wrap: false
+version: 1.0 (alpha)
+analytics: UA-45144441-1

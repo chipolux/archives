@@ -1,0 +1,22 @@
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item"></div>
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="{{ get_url('index.html') }}">Home</a>
+    <a class="sidebar-nav-item" href="{{ get_url('archive.html') }}">Archive</a>
+    {% for post in posts if post.layout == 'page.html' %}
+      {% if post.title != null %}
+        <a class="sidebar-nav-item {% if url == post.url %}active{% endif %}" href="{{ post.url }}">{{ post.title }}</a>
+      {% endif %}
+    {% endfor %}
+    <span class="sidebar-nav-item">Find Me On:</span>
+    <a class="sidebar-nav-item" href="https://github.com/chipolux">Github</a>
+    <a class="sidebar-nav-item" href="https://bitbucket.org/chipolux">Bitbucket</a>
+    <a class="sidebar-nav-item" href="http://www.linkedin.com/in/nakylewright">LinkedIn</a>
+  </nav>
+  <div class="sidebar-item">
+    <p>
+      &copy; {{ site.copyright }}
+    </p>
+  </div>
+</div>
