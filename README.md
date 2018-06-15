@@ -13,14 +13,17 @@ consolidating them here since I don't quite want to just delete them yet.
       to manage ~5 minecraft servers on a medium sized digital ocean droplet
       with all kinds of mods and custom maps for several years for around 30-40
       players.
+    * Last updated April 2016
 * `chip_engine`
     * A half-baked tile based RPG game engine using pyglet with a custom json
       based file format for maps.
+    * Last updated June 2013
 * `esp8266-buildbox`
     * The build scripts to setup and use a docker container for building C/C++
       projects for the ESP8266 with the vendor toolchain. I built this as I was
       trying to figure out an easy way to develop for the ESP8266 on Windows, Linux,
       and macOS in basically the same way. Was back in the early days of docker.
+    * Last updated March 2015
 * `Multi_Minecraft`
     * Some very old batch and powershell scripts to let you quickly swap between
       different versions and configurations of minecraft clients on Windows. I
@@ -29,8 +32,11 @@ consolidating them here since I don't quite want to just delete them yet.
       together. It was a child of the frustration I had with copying files back and
       forth when I played on several different minecraft servers and every week a 
       new modpack was coming out and needed different versions of everything.
+    * Last updated July 2012
 * `site_source`
     * HTML/CSS/JS and some markdown post content from my old personal website.
+    * Last updated July 2014
 * `TextAdv1`
     * Probably my oldest github repo, it's just a small half-working text adventure
       game I was writing in python for fun years ago.
+    * Last updated June 2014
